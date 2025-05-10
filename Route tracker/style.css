@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    font-family: arial, sans-serif;
+}
+
+.header {
+    background-color: darkslategray;
+    color: white;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+h1 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.controls {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin-top: 10px;
+}
+
+button {
+    padding: 8px 15px;
+    background-color: dodgerblue;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: royalblue;
+}
+
+#stats {
+    margin-left: auto;
+    font-weight: bold;
+    color: black;
+}
+
+#map {
+    height: 70vh;
+    margin: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    border: 1px solid silver;
+}
